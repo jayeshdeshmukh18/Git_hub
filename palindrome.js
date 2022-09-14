@@ -6,3 +6,9 @@ let reverse=0;
        reverse=reverse*10+remender;
        n=parseInt(n/10);
     }
+    if(num2==reverse){
+     console.log("Yes");
+
+    }else{
+      console.log("No");
+    }
